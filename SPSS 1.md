@@ -31,6 +31,26 @@ Same menu bar options regardless of which view you are looking at.
 - Recode
  - Probably best to use "recode into different..." so that you don't overwrite
  - You can use ranges.  Ranges are inclusive.
+- Visual Binning
+ - Will show you how it bins a continuous variable.  By default makes 10 bins.
+- Replacing Missing Values
+ - Multiple ways to handle
+ - Reason to replace - some techniques will delete entire case if there is even one missing value.
+ - Imputing Categorical Data
+  - Using the mean to imputing categorical data is not generally a good idea
+  - One option is to regress the missing variable on the other variables.
+ - Important to understand the reason the data is missing.
+ - Very important to handle missing value analysis correctly.  In previous years, eliminating obs with missing values results in a data set 30% the original size
+
+### Analyze
+- Reports => Codebook will create a report of your analysis (I THINK)
+- TURF Analysis - Total unduplicated region and frequency.  If you are trying to avoid duplication between two promotions
+- Multile Response: You can use this to analyze multiple responses, like a person who said they have a checking account AND an IRA account
+- Quality Control - lets you see variability... I think this is mainly for industrial applications
+- Chart Builder
+
+### Chart
+- Gallery is the easier / quicker way to create charts
 
 ### Syntax View
 - Use asterisk to comment
@@ -39,5 +59,16 @@ Same menu bar options regardless of which view you are looking at.
 
 ### Output Window
 - Will give you a log with warnings.
-- 
+
+### Add-ons
+- Correspondence Analysis: dimension reduction for categorical data
+
+### Help
+- Topics
+- Tutorials
+- Cas Studies are very good
+
+#### Next Class - we will work with some real data.
+
+
 
