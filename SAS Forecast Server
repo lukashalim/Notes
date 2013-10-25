@@ -1,0 +1,55 @@
+=== Definitions
+Demand Signals - 
+Demand Shaping - 
+
+Hierarchical forecasting with reconciliation 
+ - Model the top level, model the middle level, moddle the bottom level.
+ - Reconcile levels - for example, increase/decrease the middle level based on the highest level
+ - Typically, starting at the middle level and reconciling with the lower and higher levels is most effective
+
+Lots of need for *Demand Forecasting*
+
+Hierarchical forecasts require reconciliation.  You can do bottom-up or top-down forecasts, but you can also do "middle-out"
+
+Demand is more volatile now.  Partly because of social networks... if people do or don't like a product it becomes clear very quickly.
+
+=== History
+Regression developed 1886 by Francis Galton.  
+ARIMA models have only been around in the 60s, Box and Jenkins standardized methodology in the 70s.
+Three Hurdles
+- Processing Power
+- Data collection
+- Data storage
+
+=== Bottom Line Impact
+Huge companies are doing forecasting with excel spreadsheets using a moving average
+MAPE at business level was 30%, at lower levels was up to 100%
+Goal is to meet demand with lower inventory
+80% of forecasters today still use excel. 
+Corporate culture today is to create a seasonal baseline and have leadership give their judgement.
+Most of the time, people do relatively little to improve forecasts.
+Need to show that as forecasts improve, bottom line and customer satisfaction improve
+
+=== How does SAS sell?
+Have client give them a sample and hold some back
+Demonstrate that the forecast beats expectations on the hold back sample
+
+
+80% of forecasts can be done automatically
+10% requires extra effort.  This is where the analyst can add value.
+10% cannot be forecast accurately
+
+Forecast Server suppports a rich set of models
+- Time Series
+- Intermittent Demand
+- ARIMA (seasonal and nonseasonal)
+- MLR, ARIMAX, UCM
+- Weighted combined forecasting
+
+Forecast Server does not require code, but it allows you to see the code and move it to Base SAS if you like.
+
+Forecast server will fail if you have an intervention variable in your holdout sample.  It doesn't give you a good error message.
+
+ARIMA models tend to maintain accuracy further out than exponential smoothing models
+
+If you run simulations with assumed promotions, you have to make sure that those were the ones actually done.
