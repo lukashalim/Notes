@@ -29,7 +29,8 @@ Added up-next section: http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/up_n
  ![img](screenshots/neural_nets_1.png)
  - y hat can be continuous response or it can be a logit
  - the tanh function is called the activiation function.  This is because it was originally designed as analogous to the firing of a neural.
- - each hidden layer can have another hidden layer behind it.  This gives neural netwrok a greater flexibilty
+ - each hidden layer can have another hidden layer behind it.  This gives neural netwrok a greater flexibilty, but it makes it very easy to overfit.
  ![img](screenshots/neural_nets_2.png)
+ - the maximum liklihood function is trying to find the function which is most likely to deliver the data we saw
 - Select Useful Inputs
 - Optimize Complexity
