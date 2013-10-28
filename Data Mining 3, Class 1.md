@@ -32,5 +32,6 @@ Added up-next section: http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/up_n
  - each hidden layer can have another hidden layer behind it.  This gives neural netwrok a greater flexibilty, but it makes it very easy to overfit.
  ![img](screenshots/neural_nets_2.png)
  - the maximum liklihood function is trying to find the function which is most likely to deliver the data we saw
+ - not mentioned in the book, but neural networks also have "direct connects" where they just have linear terms.  This means basically everything we've learned ia subset of a neural net.
 - Select Useful Inputs
 - Optimize Complexity
