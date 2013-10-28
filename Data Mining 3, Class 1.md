@@ -10,7 +10,7 @@ Demo: http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/SAS_code/Neural_draw_
 
   Chapter 5 in book
 
-  ![Neural_draw_tanh.sas](http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/SAS_code/Neural_draw_tanh.sas):   
+  [Neural_draw_tanh.sas](http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/SAS_code/Neural_draw_tanh.sas):   
       Relate Htan function to Logistic curve.
 
   Neural1.sas             
