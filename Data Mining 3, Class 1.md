@@ -2,7 +2,7 @@ Unit Root Tests: http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/Powerpoint
 
 Added up-next section: http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/up_next.txt
 
-=== Neural Nets
+### Neural Nets
 
 (2)  Intro to Neural Nets - 
 
