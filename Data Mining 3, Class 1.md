@@ -26,10 +26,10 @@ Added up-next section: http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/up_n
 #### Model Essentials
 - Predict New Cases
  - y is predicted by a linear combination of the predictors
- ![img](pics/neural_nets_1.png)
+ ![img](screenshots/neural_nets_1.png)
  - y hat can be continuous response or it can be a logit
  - the tanh function is called the activiation function.  This is because it was originally designed as analogous to the firing of a neural.
  - each hidden layer can have another hidden layer behind it.  This gives neural netwrok a greater flexibilty
- ![img](pics/neural_nets_2.png)
+ ![img](screenshots/neural_nets_2.png)
 - Select Useful Inputs
 - Optimize Complexity
