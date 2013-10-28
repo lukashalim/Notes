@@ -9,7 +9,6 @@ Added up-next section: http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/up_n
   Polynomials (self study)
 
 ### Neural Nets
-
 (2)  Intro to Neural Nets - 
 
   Chapter 5 in book
@@ -23,3 +22,10 @@ Added up-next section: http://www4.stat.ncsu.edu/~dickey/Analytics/Datamine/up_n
 
   Neural2.sas             
       Show a different basis set (radial basis functions)
+
+#### Model Essentials
+- Predict New Cases
+ - y is predicted by a linear combination of the predictors
+ - ![img](pics/neural_nets_1.png)
+- Select Useful Inputs
+- Optimize Complexity
