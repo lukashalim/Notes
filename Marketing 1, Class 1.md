@@ -6,9 +6,9 @@ Marketing Analytics - trying to influence customer behavior to increase profit.
 
 Variables 
 - Behavioral variables can be very predictive.  Attitudinal variables, customer service variables, demographics
-- You may have to purchase information.  Experian (is this the credit card company???) is an example of a company that sells data.
+- You may have to purchase information.  Experian (they do credit reports, but they also have  a huge database of customer information) is an example of a company that sells data.
 - TARPs: Television Rating Points
-- Broad Categories: Market, Media, Creative (what does this mean????), Offer, Competitor
+- Broad Categories: Market, Media, Creative (promotional campaigns), Offer, Competitor
 
 ### Curriculum - Marketing Analytics Tools:
 - Market Segmentation (Module 1) - Questionaries, types of segementations, factor analysis, predictive modeling (SPSS/SAS)
