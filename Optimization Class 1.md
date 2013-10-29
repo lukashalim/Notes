@@ -19,5 +19,5 @@ Books:
  - OPTMODEL: http://support.sas.com/documentation/cdl/en/ormpug/63975/HTML/default/viewer.htm#ormpug_optmodel_sect001.htm
 - Excel (Risk Solver Platform)
 
-![img](optimization_1.PNG)
+![img](screenshots/optimization_1.PNG)
 Predictive Modeling is the imput for optimization. 
