@@ -28,8 +28,6 @@ Exponential smoothing is equivalent to ARIMA(0, 1, 1).
 
 You can use PROC ARIMA, but PROC ESM is also very nice
 
-![img](screenshots/time_series_3.PNG)
-
 Estimate for Theta
 
 ![img](screenshots/time_series_4.PNG)
