@@ -49,3 +49,17 @@ Linear/Holt exponential smoothing.  A little more complex b/c it involves both c
 ### Damp Trend Exponential Smoothing
 - When you believe it will eventually become stationary
 
+
+### Seasonal Exponential Smoothing
+- Same idea, but you use the season
+- Both additive and multiplicative
+- 
+
+Additive Seasonal: ![img](screenshots/time_series_10.PNG "Additive Seasonal")
+
+Winters Model: ![img](screenshots/time_series_11.PNG "Winters") 
+Can be additive or multiplicitve.  Includes trend and seasonal
+
+
+Multiplicitive Season - when season is not staying consistent accross time.  Seasonal effects changing accross time
+
