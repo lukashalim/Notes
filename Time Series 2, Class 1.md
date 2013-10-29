@@ -8,12 +8,12 @@ Forecast server for final project
 - built on idea that recent observations have greatest influence
 - exponential decay
 
-![img](screenshots/time_series_1.PNG)
+![img](screenshots/time_series_1.PNG "Exponential Smoothing")
 
 - lecture has Y hat, but books often use "s" instead.
 - weighted average of what happened yesterday and what was predicted for yesterday
 
-![img](screenshots/time_series_2.PNG)
+![img](screenshots/time_series_2.PNG "Expanding the Exponential Smoothing equation")
 
 We can progressively subsitute and get the above.
 Theta controls exponential rate of decay.  Closer to 1 puts more emphasis on recent obs, while closer to zero puts more emphasis on obs further in the past.
