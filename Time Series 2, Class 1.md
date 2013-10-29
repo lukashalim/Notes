@@ -53,11 +53,14 @@ Linear/Holt exponential smoothing.  A little more complex b/c it involves both c
 ### Seasonal Exponential Smoothing
 - Same idea, but you use the season
 - Both additive and multiplicative
-- 
 
-Additive Seasonal: ![img](screenshots/time_series_10.PNG "Additive Seasonal")
 
-Winters Model: ![img](screenshots/time_series_11.PNG "Winters") 
+Additive Seasonal: 
+![img](screenshots/time_series_10.PNG "Additive Seasonal")
+
+Winters Model: 
+![img](screenshots/time_series_11.PNG "Winters")
+
 Can be additive or multiplicitve.  Includes trend and seasonal
 
 
