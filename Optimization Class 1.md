@@ -1,5 +1,7 @@
 10/29
 
+### Definition of Optimization - best preformance with limited resources
+
 ### Linear programming: *MAIN TOOL* Allocation, blending and covering problems
 - Data Envelopment Analysis (DEA), a sophisticated linear programming approach to evaluating the efficiency of similar businesses or operating units. 
 - Network models: Transhipment, Traveling salesman, etc.
@@ -18,3 +20,4 @@ Books:
 - Excel (Risk Solver Platform)
 
 ![img](optimization_1.PNG)
+Predictive Modeling is the imput for optimization. 
