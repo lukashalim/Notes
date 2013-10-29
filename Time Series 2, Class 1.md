@@ -34,8 +34,6 @@ Estimate for Theta
 
 Standardized PACF, ACF, IACF (WHY DOES IT GIVE US the standardized????)
 
-![img](screenshots/time_series_5.PNG)
-
 ![img](screenshots/time_series_6.PNG)
 
 ![img](screenshots/time_series_7.PNG)
