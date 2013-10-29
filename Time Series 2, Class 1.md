@@ -40,9 +40,11 @@ Standardized PACF, ACF, IACF (WHY DOES IT GIVE US the standardized????)
 
 Double/Brown Exponential smoothing on both the Y and the Trend.  Assume same coefficient for both.
 
-![img](screenshots/time_series_8.PNG)
+![img](screenshots/time_series_8.PNG "Double/Brown")
 
 Linear/Holt exponential smoothing.  A little more complex b/c it involves both coefficients
+
+![img](screenshots/time_series_9.PNG "Linear/Holt")
 
 ### Damp Trend Exponential Smoothing
 - When you believe it will eventually become stationary
