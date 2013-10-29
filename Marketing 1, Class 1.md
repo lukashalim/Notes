@@ -1,4 +1,4 @@
-10/29
+#### 10/29
 
 Market Segmentation: Strategies for Success - One of the best books at clustering, segmentation.  Different types of businesses.
 
@@ -76,6 +76,21 @@ Brown bag on structural equation modeling
  - segement size and growth
  - segment structural attractiveness
  - Company resources and objectives
+
+### Market Segmentation Methods
+- Non-Modeled Form - group observations based on som criteria
+- Modeled Form - clustering
+
+### Technical Considerations
+- Need 400-600 minimum; 1000+ typical; needs to be representitive
+- Standardize prior to clustering
+- Similarity Metrics - euclidean distance, manhattan distance, hamming
+ - Criteria for good metric:
+  - Symmetry: Distance(x,y) = Distance(y,x)
+  - Non-identical distinguihability: Distance(x,y) => x != y
+  - identical non-distinguishability: Distance(x,y) => x = y
+ - Correlation isn't always good, b/c (1,2) is perfectly correlated with (100,200)!
+ - Euclidean Distance is the most common measure
 
 - How do companies cator to different segments?
  - Perception is reality! (yick)
