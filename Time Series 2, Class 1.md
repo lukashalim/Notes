@@ -18,7 +18,7 @@ Forecast server for final project
 We can progressively subsitute and get the above.
 Theta controls exponential rate of decay.  Closer to 1 puts more emphasis on recent obs, while closer to zero puts more emphasis on obs further in the past.
 
-![img](screenshots/time_series_3.PNG)
+![img](screenshots/time_series_3.PNG "Varying Theta")
 
 ### Parameter Estimations
 - originally, they just wanted to minimize the next-day forecast errors.  didn't look at statistical significance, just looking for best prediction
