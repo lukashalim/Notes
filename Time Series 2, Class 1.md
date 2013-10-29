@@ -56,9 +56,11 @@ Linear/Holt exponential smoothing.  A little more complex b/c it involves both c
 
 
 Additive Seasonal: 
+
 ![img](screenshots/time_series_10.PNG "Additive Seasonal")
 
 Winters Model: 
+
 ![img](screenshots/time_series_11.PNG "Winters")
 
 Can be additive or multiplicitve.  Includes trend and seasonal
