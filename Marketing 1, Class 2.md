@@ -18,7 +18,8 @@ Hamming Distance Measure - distance measure for categorical variables
  - Minimize this: (1 - R^2) / (1 - R^2 next closest cluster) 
   - Equivalent to maximizing R^2 within group / R^2 out of group
 SYNTAX:
-```PROC VARCLUS <options>;
+```
+PROC VARCLUS <options>;
    VAR variables;
 RUN;
 Options - CENTROID, MAXC, MAXEIGEN, OUTTREE, PROPORTION
