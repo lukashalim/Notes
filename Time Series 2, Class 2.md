@@ -39,7 +39,6 @@ First remove the largest season, then smaller.  Ex - first weekly, then daily.
 - Is a function for creating lags
 - B(Y_t)= Y_t-1
 - B^2(Y_t) = Y_t-2
-- 
 
 Math behind multiplicitive model
 
