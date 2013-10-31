@@ -24,5 +24,8 @@ PROC VARCLUS <options>;
 RUN;
 Options - CENTROID, MAXC, MAXEIGEN, OUTTREE, PROPORTION
 ```
+
  
 ![img](screenshots/marketing_1.PNG)
+
+R^2 values show you correlation of each variable with its own cluster
