@@ -25,3 +25,4 @@ RUN;
 Options - CENTROID, MAXC, MAXEIGEN, OUTTREE, PROPORTION
 ```
  
+![img](screenshots/marketing_1.PNG)
