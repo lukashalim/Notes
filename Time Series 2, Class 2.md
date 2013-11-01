@@ -1,4 +1,4 @@
-Seasonality
+#### Seasonality
  - S is defined as the seasonal period
  - Three ways to model seasonality
   - Seasonal dummy variables
@@ -19,7 +19,7 @@ p, d, and q are the orders of the nonseasonal items
 
 ACF function for seasonal AR has a spike every 12 periods.  Same pattern as with AR(1), but repeats every 12 months.
 
-Dickey-Fuller
+#### Dickey-Fuller
 - Zero Mean
  - is the mean zero 
 - Single Mean
@@ -33,9 +33,9 @@ If you has seasonality, it will invalidate the Dickey Fuller Test
 Dickey Fuller test is for stochastic trend, not for determistic trend
 If Dickey Fuller shows *stochastic trend*, then you should *difference*.
 
-First remove the largest season, then smaller.  Ex - first weekly, then daily.
+#### First remove the largest season, then smaller.  Ex - first weekly, then daily.
 
-### Backshift Operator aka Shift Operator
+#### Backshift Operator aka Shift Operator
 - Is a function for creating lags
 - B(Y_t)= Y_t-1
 - B^2(Y_t) = Y_t-2
