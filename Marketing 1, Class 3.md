@@ -46,6 +46,7 @@ Mostly this method is used for graphical representation
 
 ### Notes from article on PCA vs. FA
 - "The aim of factor analysis is to reveal any latent variables that cause the manifest variables to covary" (note: a latent variable is one which is not observed but rather inferred)
+- "In common factor analysis, a small number of factors are extracted to account for the intercorrelations among the observed variables--to identify the latent dimensions that explain why the variables are correlated with each other. In principal component analysis, the objective is to account for the maximum portion of the variance present in the original set of variables with a minimum number of composite variables called principal components."
 - Many methods for Factor Analysis
  - In general, Maximimum Likelihood best when you have normally distributed data.  When not normally distributed, Principal Axis Factors is a good method
 - Choosing which factors to retain
