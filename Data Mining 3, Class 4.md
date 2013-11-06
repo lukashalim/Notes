@@ -13,3 +13,6 @@
 - Model Comparison in Enterprise Miner
  - Important to keep your goals in mind: are you trying to make decisions?
 
+
+- K-G statistic
+ - Compares maximum vertical distance between two curves.  General test to see whether two distributions are the same.
