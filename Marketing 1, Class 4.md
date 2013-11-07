@@ -1,0 +1,40 @@
+### Steps in Factor Analysis
+- Drop Variables which could cause problems for FA
+ - Drop variables that are uncorrelated with all other variables < .25 or .3 as these can mess up analysis
+ - Sometimes highly correlated variables > .99 can also cause issues.   May want to drop.
+- Test for factorability
+ - Bartlett's test of sphericity: uses a chi-squared test to see whether intercorrelation matrix is an identity matrix
+ - Kaiser-Meyer-Olkin Measure of sampling adequacy (KMO).  
+  - 1 => perfectly factorable. 
+  - 0 => totally unfactorable
+  - .7 is very good
+  - Greater than .5 => don't try to factor
+- Extract an initial solution
+ - normally takes place based on the eigenvalue
+ - rule of thumb - explain at least 70% of the variance
+ - rule of thumb - do not use factors with an eigenvalue less than 1
+ - determine the appropriate number of ffactors to be extracted in the final solution
+ - if there is one factor that loads highly to a single factor, then you have a factor structure that is not interpretable
+- if the initial solution is uninterpretable, rotate the factors
+ - rotation can larify the factor pattern in order to better interpet the nature of factors
+ - changing the loadings
+ - methods of rotation
+  - Orthogonal methods
+   - *Varimax* Rotation maximizes the variance of the factors (Dr. D says this is typically best)
+   - quartimax method: maximize the variance of the squared loadings of each variable
+   - equimax method: tries to combine the objectives of both marimax and quartimax methods
+  - oblique rotation methods
+   - direct oblimin (use a measure called delta)
+   - promax methods (use a measure called kappa)
+ - factors still remain orthogonal, but now we have some high loadings and some low loadings
+ - communalities are identical to the factors prior to rotation
+ - you may find that there are some variables that have high loadings in two factors or low loadings in all factors - those are the ones that are problematic and may need to be dropped.
+  - This is a problem with any unsupervised learning method: there is no easy criteria for what is a good solution
+- depending on subsequent applications, compute a factor score for each subject on each factor
+
+Eigenvalues measure the amount of variation in the total sample accounted for by each factor
+
+- Definitions
+ - Communality: the amount of variation explained by the factor solution
+ - factor loadings: correlation coefficients between variables and factors
+ - oblique rotation: specialized method that allow nonorthoganal factors
