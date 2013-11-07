@@ -7,11 +7,19 @@ Toolkit
 
 Decision Tree
 - 1st part of algorithm is split-search
- - When splitting is done with the chi-squared criteria, split to maximize the log worth (- log chi-squared p-value)
-  - criteria is usually somewhat more complicated - for example, you cannot have fewer than a specified number of observations in a branch
-  - bonferroni correction used to adjust p-values since many statistical tests are being done in parallel
-  - in addition, each level of the tree depends on the p-values of prior splits.  There is an additional depth adjustment to the p-values. 
- - algorithm tries putting missing values on both left and right side of split
+ - Cateogrical Splitting
+  - When splitting is done with the chi-squared criteria, split to maximize the log worth (- log chi-squared p-value)
+   - criteria is usually somewhat more complicated - for example, you cannot have fewer than a specified number of observations in a branch
+   - bonferroni correction used to adjust p-values since many statistical tests are being done in parallel
+   - in addition, each level of the tree depends on the p-values of prior splits.  There is an additional depth adjustment to the p-values. 
+  - algorithm tries putting missing values on both left and right side of split
+  - Gini and entropy reduction don't have p-value associated, so they tend to grow large trees
+  - Gini
+   - commonly used as measure of inequality of income
+   - defined as ratio of the areas on the Lorenz curve diagram
+   - ![img](screenshots/gini.PNG)
+ - Continous variables 
+  - Split by variance and ProbF logworth
 - 2nd Part: Pruning
  - Remove a specified number of branches from the tree.  Various combinations will produce different subtrees.  
  - Assess each with validation data and choose the best performing simplest model.
