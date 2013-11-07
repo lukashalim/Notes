@@ -26,11 +26,28 @@
   - oblique rotation methods
    - direct oblimin (use a measure called delta)
    - promax methods (use a measure called kappa)
+   - delta and kappa show you how correlated your factors are at the end
+   - to use these, you have to have a sense of the correlaton that already exists
  - factors still remain orthogonal, but now we have some high loadings and some low loadings
  - communalities are identical to the factors prior to rotation
  - you may find that there are some variables that have high loadings in two factors or low loadings in all factors - those are the ones that are problematic and may need to be dropped.
   - This is a problem with any unsupervised learning method: there is no easy criteria for what is a good solution
 - depending on subsequent applications, compute a factor score for each subject on each factor
+- Reliability Analysis
+- Factor scores are linear combinations of the observed variables which consider what is shared between the variables and the factor (communality) and the unique variance
+ - regression scores
+ - bartlett scores
+ - andersonrubin scores
+- Methods
+ - principal components methods
+ - common factor analysis
+  - more intepretable than principal components, but with lower % variation explained
+  - principal axis method
+  - maximum likelihood method
+ - unweighted least-squares
+ - generalized least squares
+ - alpha method
+ - image factoring
 
 Eigenvalues measure the amount of variation in the total sample accounted for by each factor
 
