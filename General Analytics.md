@@ -31,3 +31,13 @@ Decision Tree
   - estimate
    - evaluated by squared error
   - The pruning stage is different depending on whether we want ranking, decision, or estimate.  This doesn't make a difference on the first stage.
+
+Neural Nets
+- Flexiblity comes with risk of overfitting & lack of variable selection method
+- optimization algorithm called "stopped training" reduces changes of overfitting
+- neural net is a regression on a set of derived inputs, called hidden units
+- hidden units include a link function / activation function, typically the hyperbolic tangent function
+- model can be considered in "layer": input layer, hidden layer, output layer
+- the hyperbolic tangent function smushes down outliers
+
+Models can be used for Decisions, Rankings, or Estimates.
