@@ -41,3 +41,18 @@ Neural Nets
 - the hyperbolic tangent function smushes down outliers
 
 Models can be used for Decisions, Rankings, or Estimates.
+
+### Techniques to Know:
+Rule induction
+- combination of decision trees & neural nets
+- useful for rare events
+- decision tree is used to filter out "easy to classify" cases, then neural network examines remaining.
+Memory Based Reasoning (MBR) / k-nearest neighbor
+- "an object is classified by a majority vote of its neighbors, with the object being assigned to the class most common amongst its k nearest neighbors"
+Dmine Regression
+- all continous variables are binned
+- binned and individual continous variables are used in input selection
+LARS - Least Angle Regression
+- explanations of this don't make all that much sense to me... need to look for clearer explanation
+Partial Least Squares Regression
+- explanations of this don't make all that much sense to me... need to look for clearer explanation
