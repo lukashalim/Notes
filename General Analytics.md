@@ -56,3 +56,6 @@ LARS - Least Angle Regression
 - explanations of this don't make all that much sense to me... need to look for clearer explanation
 Partial Least Squares Regression
 - explanations of this don't make all that much sense to me... need to look for clearer explanation
+
+### Definitions
+Link Function - montonic function that maps unit interval to real number line.  For example, the logit function
