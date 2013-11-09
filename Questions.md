@@ -4,3 +4,5 @@ Is there ever an advantage to trying Gini or Entropy with decision trees, rather
 |Prediction Type  | Statistic                               | Comments  |
 |-----------------|-----------------------------------------|-----------|
 |Decisions        | Accuracy or Missclassfication           |           |
+|Rankings         | Concordance                             |           |
+|Estimates        | Average Squared Error or Maximum Likelihood |       |
