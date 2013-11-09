@@ -58,5 +58,5 @@ Partial Least Squares Regression
 - explanations of this don't make all that much sense to me... need to look for clearer explanation
 
 ### Definitions
-Link Function - montonic function that maps unit interval to real number line.  For example, the logit function
+Link Function - montonic function that maps unit interval to real number line.  For example, the logit function.
 Consistency - as the sample size gets larger, the probability that the stimate is within some small distance of the true value also gets larger.
