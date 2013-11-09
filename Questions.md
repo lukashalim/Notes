@@ -6,7 +6,11 @@ are most likely to have produced the data. In LSE, on the other hand, we seek th
 provide the most accurate description of the data, measured in terms of how closely the model ﬁts the
 data under the square-loss function."
 
-Based on what I read in *Logistic Regression Using SAS*, it seems that ordinary least squares (OLS), weighted least squares (WLS) and maximum likelihood (ML) are all ways to estimate parameters for a logistic model.  Weighted Least Squares corrects for heteroscedasticity.
+In *Logistic Regression Using SAS*, it explains that ordinary least squares (OLS), weighted least squares (WLS) and maximum likelihood (ML) are all ways to estimate parameters for a logistic model *when the data is grouped in a contingency table*.  Weighted Least Squares corrects for heteroscedasticity.
+When data consists of individual observations, maximum likelihood should be used.  
+OLS requires heteroscedasticity, which is obviously violated since errors are either 0 or 1.
+Also, you can't do OLS with logit because ln(p_i / (1 - p_i) ) is undefined when p_i is 0 or 1 so you can't minimize (ln(p_i / (1 - p_i) )
+
 
 |Prediction Type  | Statistic                               | Comments  |
 |-----------------|-----------------------------------------|-----------|
