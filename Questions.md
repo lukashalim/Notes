@@ -9,7 +9,7 @@ data under the square-loss function."
 In *Logistic Regression Using SAS*, it explains that ordinary least squares (OLS), weighted least squares (WLS) and maximum likelihood (ML) are all ways to estimate parameters for a logistic model *when the data is grouped in a contingency table*.  Weighted Least Squares corrects for heteroscedasticity.
 When data consists of individual observations, maximum likelihood should be used.  
 OLS requires heteroscedasticity, which is obviously violated since errors are either 0 or 1.
-Also, you can't do OLS with logit because ln(p_i / (1 - p_i) ) is undefined when p_i is 0 or 1 so you can't minimize (ln(p_i / (1 - p_i) )
+Also, you can't do OLS with logit because ln(p_i / (1 - p_i) ) is undefined when p_i is 0 or 1 so you can't minimize (ln(p_i_predicted / (1 - p_i_predicted) - ln(p_i_actual / (1 - p_i_actual)) )^2 because the ln(p_i_actual / (1 - p_i_actual)) terms will always be undefined
 
 
 |Prediction Type  | Statistic                               | Comments  |
