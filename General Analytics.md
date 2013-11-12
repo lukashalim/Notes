@@ -60,3 +60,4 @@ Partial Least Squares Regression
 ### Definitions
 - Link Function - montonic function that maps unit interval to real number line.  For example, the logit function.
 - Consistency - as the sample size gets larger, the probability that the stimate is within some small distance of the true value also gets larger.
+- Partial correlation: Given X and Y given a set of n controlling variables Z = {Z1, Z2, ..., Zn}, the partial correlation is the correlation between the residuals resulting from the linear regression of X with Z and of Y with Z, respectively.
