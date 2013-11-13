@@ -8,6 +8,10 @@ When to drop factors?
 - variables with high or low loadings on all factors
 - KMO
 
+What is "Reliability"
+- Generally, it "the overall consistency of a measure"
+- 
+
 ### Clustering Techniques
 - Standardization
  - Range Standardization tends to work better than using z-scores
