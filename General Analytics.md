@@ -42,6 +42,10 @@ Neural Nets
 
 Models can be used for Decisions, Rankings, or Estimates.
 
+Clustering
+- Using Eigenvalues
+ - look at clusters and find the one with the largest *second* principal component
+
 ### Techniques to Know:
 Rule induction
 - combination of decision trees & neural nets
