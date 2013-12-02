@@ -6,3 +6,4 @@ McCain's models were created once, whereas Obama's team had models that were rec
 
 "Experimenters would randomly assign voters to receive varied sequences of direct mail—four pieces on the same policy theme, each making a slightly different case for Obama—and then use ongoing survey calls to isolate the attributes of those whose opinions changed as a result.
 
+Romney's data team was 1/10th the size of Obama's and focused on trying to understand if advertising was working.
