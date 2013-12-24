@@ -46,6 +46,9 @@ Clustering
 - Using Eigenvalues
  - look at clusters and find the one with the largest *second* principal component
 
+Canonical Correlation Analysis
+- "Canonical correlation analysis follows a procedure similar to factor analysis, but focuses  on accounting for themaximum amount of the relationship between thetwo sets of variables, rather than within a single set (e.g. a single factor)."
+
 ### Techniques to Know:
 Rule induction
 - combination of decision trees & neural nets
