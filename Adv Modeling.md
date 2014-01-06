@@ -10,10 +10,18 @@ Dealing with Multicollinearity
 - center the independent variables in polynomial regression models
 
 Biased Regression Techniques
-- intentionally biase the estimation of the regression techniques
+- intentionally biases the estimation of the regression techniques
 - tend to have more precision than OLS esitimates in the presence of multicollinearity
 - MSE(Beta_hat) = [Bias(Beta_hat)^2] + Var(Beta_hat)
 - ![img](/screenshots/bias.PNG)
-- in OLS, bias is set to zero
+- in OLS, bias for your Betas are set to zero
 - in Biased regression, bias can vary, allowing us to get smaller values of MSE
 
+Many Different Techniques for Biased Regression
+- Principal Components Regression (PCR)
+ - use some of the principal components
+ - for interpetability, you can work out regression equation with the original variables.
+ ![img](/screenshots/PCR_Interpretation.PNG)
+ - Disadvantages - may not always work.
+ - Can be distorted by outliers which alter the variance-covariance matrix
+- Ridge Regression
