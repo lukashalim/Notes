@@ -13,6 +13,7 @@ Biased Regression Techniques
 - intentionally biase the estimation of the regression techniques
 - tend to have more precision than OLS esitimates in the presence of multicollinearity
 - MSE(Beta_hat) = [Bias(Beta_hat)^2] + Var(Beta_hat)
+- ![img](/screenshots/bias.PNG)
 - in OLS, bias is set to zero
 - in Biased regression, bias can vary, allowing us to get smaller values of MSE
 
