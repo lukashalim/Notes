@@ -1,0 +1,18 @@
+Multicollinearity
+- explanatory variables are highly correlated
+- inflates standard errors on the regression coefficients
+- can potentially switch expected sign of a regression coefficient
+
+Dealing with Multicollinearity
+- Exclude Redundant variables
+- redefine variables
+- *Penalized Regression Techniques* also called *Biased Regression Techniques*
+- center the independent variables in polynomial regression models
+
+Biased Regression Techniques
+- intentionally biase the estimation of the regression techniques
+- tend to have more precision than OLS esitimates in the presence of multicollinearity
+- MSE(Beta_hat) = [Bias(Beta_hat)^2] + Var(Beta_hat)
+- in OLS, bias is set to zero
+- in Biased regression, bias can vary, allowing us to get smaller values of MSE
+
