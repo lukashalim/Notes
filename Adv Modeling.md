@@ -25,3 +25,8 @@ Many Different Techniques for Biased Regression
  - Disadvantages - may not always work.
  - Can be distorted by outliers which alter the variance-covariance matrix
 - Ridge Regression
+
+Independence (or lack thereof)
+- extension of independence is that explanatory variables are independent of the errors - called exogenous variables E(eplilon|X) = 0.
+- explanatory variables are correlated with the errors - endogenous 
+- Instrumental Variable
