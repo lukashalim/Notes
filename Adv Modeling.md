@@ -30,3 +30,7 @@ Independence (or lack thereof)
 - extension of independence is that explanatory variables are independent of the errors - called exogenous variables E(eplilon|X) = 0.
 - explanatory variables are correlated with the errors - endogenous 
 - Instrumental Variable
+
+Endogeneity
+- your x values are correlated with your errors
+- correct by using 'instrumental' variables to model your endogenous variables. however, we don't want to model them *perfectly*, because that will preserve endogenity
