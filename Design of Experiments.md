@@ -23,4 +23,15 @@ Sawtooth Power Function
 - Normally, the larger the sample, the greater the power
 - However, with discrete data you cannot acheive the exact alpha desired, so a smaller than desired alpha is chosen. Since power is a function of alpha, this results in a decrease in power.
 
-
+Test of Two Independent Proportions
+- Pearson chi-squared (SAS default)
+- Likelihood ratio test
+- Fisher's exact test: use for cases with small expected cell frequencies (less than 5)
+Effect sizes represented as
+- proportion difference
+- odds ratio
+- relative risk
+Sample Size Allocation
+- common sample size per group (balanced design)
+- sample size allocation weights for two groups
+- two group sample size
