@@ -34,3 +34,7 @@ Independence (or lack thereof)
 Endogeneity
 - your x values are correlated with your errors
 - correct by using 'instrumental' variables to model your endogenous variables. however, we don't want to model them *perfectly*, because that will preserve endogenity
+
+Dealing with Heteroscedasticity
+- compromises the standard errors of the parameter estimates
+- Var(AX) = A * Var(X) * A^T
