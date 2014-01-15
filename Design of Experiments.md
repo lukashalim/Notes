@@ -34,4 +34,5 @@ Effect sizes represented as
 Sample Size Allocation
 - common sample size per group (balanced design)
 - sample size allocation weights for two groups
+ - as you depart from a balanced design, the required sample size necessary to acheive a given power will increase.
 - two group sample size
