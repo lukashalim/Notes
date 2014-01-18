@@ -41,7 +41,8 @@ Endogeneity
   - measurement error in the dependent variable always introduces bias
 - Solutions to Endogeneity
  - Two-Stage Least Squares
-- correct by using 'instrumental' variables to model your endogenous variables. however, we don't want to model them *perfectly*, because that will preserve endogenity
+  - instrumental variable exogeneous (not related to the error term) and related to an (endogenous) predictor variable
+  - correct by using 'instrumental' variables to model your endogenous variables. however, we don't want to model them *perfectly*, because that will preserve endogenity
 
 Dealing with Heteroscedasticity
 - compromises the standard errors of the parameter estimates
