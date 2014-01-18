@@ -32,7 +32,15 @@ Independence (or lack thereof)
 - Instrumental Variable
 
 Endogeneity
-- your x values are correlated with your errors
+- your x values are correlated with your errors. As a result, your betas are biased.
+![img](/screenshots/endogenous.PNG)
+- Endogeneity occurs in two cases
+ - Omitted Variables
+ - Measurement Error
+  - bias is only introduced when your dependent variable (for example, x1) is related to the measurement error for y
+  - measurement error in the dependent variable always introduces bias
+- Solutions to Endogeneity
+ - Two-Stage Least Squares
 - correct by using 'instrumental' variables to model your endogenous variables. however, we don't want to model them *perfectly*, because that will preserve endogenity
 
 Dealing with Heteroscedasticity
