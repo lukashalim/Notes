@@ -60,4 +60,8 @@ Dealing with Heteroscedasticity
  - White tests all dependent variables and tends to be too lenient, while Breush looks at particular varible(s)
 - Resolving heteroscadasticity 
  - Calculate Robust Standard Errors 
+ - Weighted Least Squares: Weight individual observations
+  - like ordinary least squares, but we assign weights to each observations, and find the minimum of the weighted squared errors.
+  - can be used for multiple purposes - in time series, we can weight more recent observations more than older observations. we can also use it to limit the influence of outliers, and we can use it to handle heteroscadasticity.
+  - In order to use weighted least squares with heteroscadasticity, we downweight the observations with dependent values that have higher heteroscadasticity. ex - if high income people have higher heroscadasticity, high income observations are downweighted.
  - if you just wand valid t-tests, one approach is to transform the predictor variables
