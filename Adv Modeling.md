@@ -69,3 +69,11 @@ Dealing with Heteroscedasticity
   - use this function to set the weights for weighted least squares
  - if you just wand valid t-tests, one approach is to transform the predictor variables
 
+Robust Regression
+- Anamolous Observation
+ - outliers: large standardized residual; far from the fitted line in the y-direction
+ - leverage points: falls far outside the mean in the x-space
+ - influential point / influential observations: point which influences regression
+- Distributional outliers
+ - typically we assume our distributions are normal, but if they are thick tailed, then we should expect large proportion of data which is far from the mean
+ - a thick tailed distribution has a higher probability of producing larger errors that those that would be expecte from a Normal distribution.
