@@ -77,3 +77,9 @@ Robust Regression
 - Distributional outliers
  - typically we assume our distributions are normal, but if they are thick tailed, then we should expect large proportion of data which is far from the mean
  - a thick tailed distribution has a higher probability of producing larger errors that those that would be expecte from a Normal distribution.
+- a good Robust Regression technique should be *close* to as good as OLS when data is uncontaminated and *better* than OLS when data is contaminated
+- Types of Robust Regression
+ - M-estimation: handles outliers
+  - Huber's M-estimation: instead of minimizing sum of squared errors, minimize some other function of the errors
+ - Least Trimmed Squares: handles leverage points
+ - MM-estimation: handles both outliers and leverage points
