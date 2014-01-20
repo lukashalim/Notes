@@ -39,11 +39,25 @@ Endogeneity
  - Measurement Error
   - bias is only introduced when your dependent variable (for example, x1) is related to the measurement error for y
   - measurement error in the dependent variable always introduces bias
+- Testing for Endogeneity
+ - Regress suspected independent variable on all other independent variables
+  - this gives us the 'extra' information provided by our suspect variable which is not provided by the other variables
+  - trying to isolate out the bad part of the suspect variable
+ - Keep residuals
+ - Regress dependent variable on all variables (except instrumental ones) and the residuals from the prevous step
+ - Test coefficient on residual variable
 - Solutions to Endogeneity
  - Two-Stage Least Squares
   - instrumental variable exogeneous (not related to the error term) and related to an (endogenous) predictor variable
   - correct by using 'instrumental' variables to model your endogenous variables. however, we don't want to model them *perfectly*, because that will preserve endogenity
+  - afterwords, we 
 
 Dealing with Heteroscedasticity
-- compromises the standard errors of the parameter estimates
-- Var(AX) = A * Var(X) * A^T
+- compromises the standard errors of the parameter estimates. Dr. L showed some of the math behind this - normal error estimates assume constant variance in independent variable
+- does not bias coefficient estimates
+- Tests for heteroscadasticity 
+ - White and Breush
+ - White tests all dependent variables and tends to be too lenient, while Breush looks at particular varible(s)
+- Resolving heteroscadasticity 
+ - Calculate Robust Standard Errors 
+ - if you just wand valid t-tests, one approach is to transform the predictor variables
