@@ -83,3 +83,6 @@ Robust Regression
   - Huber's M-estimation: instead of minimizing sum of squared errors, minimize some other function of the errors
  - Least Trimmed Squares: handles leverage points
  - MM-estimation: handles both outliers and leverage points
+
+Least Trimmed Squares
+- mimimize squared errors, but "trim"
