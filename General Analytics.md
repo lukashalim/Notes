@@ -63,6 +63,8 @@ LARS - Least Angle Regression
 - explanations of this don't make all that much sense to me... need to look for clearer explanation
 Partial Least Squares Regression
 - explanations of this don't make all that much sense to me... need to look for clearer explanation
+Naive Bayes Classifier
+- start with prior probability of the event. adjust this value by looking at each feature, and compare the prior probability of that feature to the probability associated with the event in the training set.
 
 ### Definitions
 - Link Function - montonic function that maps unit interval to real number line.  For example, the logit function.
