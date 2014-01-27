@@ -86,3 +86,12 @@ Robust Regression
 
 Least Trimmed Squares
 - mimimize squared errors, but "trim"
+
+Panel Data
+- sort of a mix of time-series and cross-sectional
+- looking at entities over time
+- poold regression
+- fixed-effects
+ - assuming that the subjects we have represent the entire population available to study or represent the entire population of interest
+- random effects
+ - used when you are trying to generalize from random sample to a bigger population
