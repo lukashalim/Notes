@@ -43,3 +43,7 @@ Sample Size Allocation
 - factorial experience - include interactions, but require larger samples
 - balanced sample sizes are more efficient, so use when possible
 - Definition: Orthogonal Design - factors are uncorrelated with each other. you can estimate effects independent with each other and independent of the interactions
+
+## Steps in Design of Experiments
+- Select experimental design
+- Do power analysis based on design
