@@ -95,3 +95,10 @@ Panel Data
  - assuming that the subjects we have represent the entire population available to study or represent the entire population of interest
 - random effects
  - used when you are trying to generalize from random sample to a bigger population
+ 
+Count data
+- *definition* discrete (or count) data is integer data bounded below (typically by zero) and unbounded above
+- common distributional assumption is Poisson
+- Poisson Regression
+ - values must be positive, so we use the exponential function
+ - models the mean of the counts
