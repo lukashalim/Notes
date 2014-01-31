@@ -100,5 +100,12 @@ Count data
 - *definition* discrete (or count) data is integer data bounded below (typically by zero) and unbounded above
 - common distributional assumption is Poisson
 - Poisson Regression
+ - poisson distribution is used to measure events in a period of time
  - values must be positive, so we use the exponential function
  - models the mean of the counts
+- Negative Binomail Regression
+ - negative binomial distribution is a generalization of the poisson distribution. poisson assumes mean = variance, negative binomial distribution does not.
+ - negative binomial still restricts relation between mean and the variance: variance = mean + a x mean^2
+- Zero-inflated data
+ - poission and negative binomial cannot handle cases with large number of zeros (typically more than 50% more zeros than the next largest category)
+ - therefore, we use a two-stage proccess: first predict 0 or > 0. Then if >0, predict how many using poisson or negative binomial.
