@@ -42,8 +42,8 @@
    - maximum power when sample sizes for the two groups are equal. however, if you have an imbalance you should not eliminate observations in order to gain balance - this would reduce the power.
   - ratio of group sample sizes
   - alpha - the higher the alpha, the higher the power.  very small alphas will have smaller powers.
-  - mean difference or effect size
-  - standard deviation or variability
+  - mean difference or effect size - the larger the estimated difference, the larger the power
+  - standard deviation or variability - the smaller the variability, the larger the power.
 
 
 ### Observed Power
