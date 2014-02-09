@@ -31,8 +31,8 @@
 
 |    |      Decision - H0    |  Decision - Ha |
 |----------|:-------------:|------:|
-| Truth - H0 |  Pr(correct negative) = 1-alpha | Pr(false positive) = Pr(Type 1 error) =  alpha |
-| Truth - Ha |    Pr(false negative) = Pr(Type II error) = beta|   Pr(correct positive) = Power = 1-beta  |
+| **Truth - H0** |  Pr(correct negative) = 1-alpha | Pr(false positive) = Pr(Type 1 error) =  alpha |
+| **Truth - Ha** |    Pr(false negative) = Pr(Type II error) = beta|   Pr(correct positive) = Power = 1-beta  |
 
 - Choosing an alpha determines the probability of a type 1 error. For example, a 5% alpha will mean that 1/20 comparisons that are deemed significant will be due to sampling variation.
 - Control of Type II errors is *more complex.*
