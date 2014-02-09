@@ -29,8 +29,8 @@
  - replication will decrease variance and increase power
  - an experiment is powerful if it has a high probability of rejecting the null hypothesis (when the null if false)
 
-Truth         | Decision | a |
-------------- | -------------||
+Truth         | Decision | a 
+------------- | ---------| a 
 H_0           | Pr(correct negative)  | Pr(false positive)
 A_a           |  Pr(false negative)     | Pr(correct negative)   
 
