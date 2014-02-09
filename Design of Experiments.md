@@ -31,8 +31,8 @@
 
 Truth         | Decision
 ------------- | -------------
-H_0           |       |
-A_a           |       |
+H_0           | Pr(correct negative)  | Pr(false positive)
+A_a           |  Pr(false negative)     | Pr(correct negative)   
 
 
 ### Observed Power
