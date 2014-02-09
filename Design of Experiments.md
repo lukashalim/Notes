@@ -32,8 +32,8 @@
 
 | Truth   |      Decision      |  Cool |
 |----------|:-------------:|------:|
-| H0 |  Pr(correct negative)| Pr(false positive) |
-| Ha |    Pr(false negative)  |   Pr(correct negative)   |
+| H0 |  Pr(correct negative) = 1-alpha | Pr(false positive) = Type 1 error =  alpha |
+| Ha |    Pr(false negative) = Type II error = beta|   Pr(correct negative) = 1-beta  |
 
 ### Observed Power
 - assuming that the observed effects and variability are equal to the true parameters, the probability of rejecting the null hypothesis is computed
