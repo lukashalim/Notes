@@ -35,6 +35,12 @@ H_0           | Pr(correct negative)  | Pr(false positive)
 A_a           |  Pr(false negative)     | Pr(correct negative)   
 
 
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
 ### Observed Power
 - assuming that the observed effects and variability are equal to the true parameters, the probability of rejecting the null hypothesis is computed
 - advocates of observed power argue that there is evidence for the null hypothesis being true if the statistical significance was not achieved despite the computed power being high at the observed effect size
