@@ -29,11 +29,22 @@
  - replication will decrease variance and increase power
  - an experiment is powerful if it has a high probability of rejecting the null hypothesis (when the null if false)
 
-
-| Truth   |      Decision      |  Cool |
+|    |      Decision - H0    |  Decision - Ha |
 |----------|:-------------:|------:|
-| H0 |  Pr(correct negative) = 1-alpha | Pr(false positive) = Type 1 error =  alpha |
-| Ha |    Pr(false negative) = Type II error = beta|   Pr(correct negative) = 1-beta  |
+| Truth - H0 |  Pr(correct negative) = 1-alpha | Pr(false positive) = Pr(Type 1 error) =  alpha |
+| Truth - Ha |    Pr(false negative) = Pr(Type II error) = beta|   Pr(correct positive) = Power = 1-beta  |
+
+- Choosing an alpha determines the probability of a type 1 error. For example, a 5% alpha will mean that 1/20 comparisons that are deemed significant will be due to sampling variation.
+- Control of Type II errors is *more complex.*
+ - for a two-sample t-test, the power depends on
+  - sample size
+   - higher sample size => higher power
+   - maximum power when sample sizes for the two groups are equal. however, if you have an imbalance you should not eliminate observations in order to gain balance - this would reduce the power.
+  - ratio of group sample sizes
+  - alpha - the higher the alpha, the higher the power.  very small alphas will have smaller powers.
+  - mean difference or effect size
+  - standard deviation or variability
+
 
 ### Observed Power
 - assuming that the observed effects and variability are equal to the true parameters, the probability of rejecting the null hypothesis is computed
