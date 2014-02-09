@@ -28,10 +28,10 @@
 - DEFINITION: Probabiltiy that the null hypothesis is rejected, given that the null hypothesis is false
  - replication will decrease variance and increase power
  - an experiment is powerful if it has a high probability of rejecting the null hypothesis (when the null if false)
-| --------------|               | Cool  |
-| TRUTH         |:-------------:| -----:|
-| --------------|:-------------:| -----:|
-
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 
 ### Observed Power
