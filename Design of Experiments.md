@@ -29,17 +29,11 @@
  - replication will decrease variance and increase power
  - an experiment is powerful if it has a high probability of rejecting the null hypothesis (when the null if false)
 
-Truth         | Decision | a 
-------------- | ---------| a 
-H_0           | Pr(correct negative)  | Pr(false positive)
-A_a           |  Pr(false negative)     | Pr(correct negative)   
 
-
-| Tables   |      Are      |  Cool |
+| Truth   |      Decision      |  Cool |
 |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| H0 |  Pr(correct negative)| Pr(false positive) |
+| Ha |    Pr(false negative)  |   Pr(correct negative)   |
 
 ### Observed Power
 - assuming that the observed effects and variability are equal to the true parameters, the probability of rejecting the null hypothesis is computed
