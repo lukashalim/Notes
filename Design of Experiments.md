@@ -29,10 +29,10 @@
  - replication will decrease variance and increase power
  - an experiment is powerful if it has a high probability of rejecting the null hypothesis (when the null if false)
 
-------------  | Second Header
-First Header  | -------------
-------------  | Content Cell
-Content Cell  | Content Cell
+Truth         | Decision
+------------- | -------------
+H_0           |       |
+A_a           |       |
 
 
 ### Observed Power
