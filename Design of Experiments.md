@@ -22,7 +22,7 @@
  - effected by alpha, sample size, effect size, distribution
 - Replication - more that one experimental unit gets the same treatment
 - *Balance* - equal counts in each treatment
-- *Orthogonality* -
+- *Orthogonality* - sum of products of corresponding elements is zero
 
 ### Power
 - DEFINITION: Probabiltiy that the null hypothesis is rejected, given that the null hypothesis is false
@@ -105,7 +105,6 @@ Sample Size Allocation
 ### Steps in Design of Experiments
 - Select experimental design
 - Do power analysis based on design
-
 
 ## Lecture 5 - Blocking
 - 
