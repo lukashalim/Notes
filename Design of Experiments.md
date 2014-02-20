@@ -122,8 +122,10 @@ Sample Size Allocation
 
 ### Proc FACTEX
 Syntax: 
+
 ![img](screenshots/factex.PNG "PROC Factex")
 Example:
+
 ![img](screenshots/factex_example.PNG "PROC Factex Example")
 - size tells us the number of treatments we would like
 - minabs option gives minimal abberation design that lets us estimate two levels
