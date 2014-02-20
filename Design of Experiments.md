@@ -101,13 +101,39 @@ Sample Size Allocation
 ### Efficiency
 - amount of information / cost of experiment
 - efficience designs must be *orthogonal* and *balanced*
+- with two-level factors, increasing the number of factors *does not increase required sample size very much*
 
 ### Steps in Design of Experiments
 - Select experimental design
 - Do power analysis based on design
 
 ## Lecture 5 - Blocking
-- 
+- Variables which you can control are called *factors*
+- Variables which you cannot control are called *blocks*. Characteristic of the population, rather than of the treatment.
+- For example, you can change the APR for the credit card offer, but you cannot change the gender of the people who receive the offer.
+- Blocking is useful when the variablity within blocks is less than the variablity for the entire sample.
 
 ## Lecture 6 - Fractional Factorial Experiments
+- as number of factors increase, the number of interactions increases
+- measuring all of the multi-way interactions would require a very large sample
+- a fractional factorical design cannot measure all the interactions, but it requires a smaller sample size
+- with fractional design, some effects will be *confounded* or *aliased*
+- fractional design should still be balanced and orthogonal
+
+### Proc FACTEX
+Syntax: 
+![img](screenshots/factex.PNG "PROC Factex")
+Example:
+![img](screenshots/factex_example.PNG "PROC Factex Example")
+- size tells us the number of treatments we would like
+- minabs option gives minimal abberation design that lets us estimate two levels
+Confounding Rules:
+![img](screenshots/factex_confounding.PNG "PROC Factex Recoded Example")
+- we definately definately don't want any main effects confounded with other main effects. we also don't want variables confounded with two way interactions... if this occurs, we are trying for too small a design. here, fixed is confounded with the interaction of Goto and Color. If we don't want that, we will need a larger treatment structure (32 treatments)
+![img](screenshots/factex_recoded.PNG "PROC Factex Recoded Example")
+- Use **%MktEx Macro** for simpler syntax
+
+### Experimental Design Efficiency:
+![img](screenshots/DOE_efficiency.PNG "DOE Efficiency")
+
 ## Lecture 7 - Optimal Designs
