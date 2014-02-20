@@ -21,7 +21,7 @@
 - *Power* - Probability you will detect an effect if one exists. In other words, Probabiltiy that the null hypothesis is rejected, given that the null hypothesis is false
  - effected by alpha, sample size, effect size, distribution
 - Replication - more that one experimental unit gets the same treatment
-- *Balance* - 
+- *Balance* - equal counts in each treatment
 - *Orthogonality* -
 
 ### Power
@@ -70,6 +70,9 @@
 ### Sawtooth Power Function
 - Normally, the larger the sample, the greater the power
 - However, with discrete data you cannot acheive the exact alpha desired, so a smaller than desired alpha is chosen. Since power is a function of alpha, this results in a decrease in power.
+![img](screenshots/sawtooth.PNG "Sawtooth Power")
+
+## Lecture 3 - Power and Sample Size
 
 ### Test of Two Independent Proportions
 - Pearson chi-squared (SAS default)
@@ -85,13 +88,27 @@ Sample Size Allocation
  - as you depart from a balanced design, the required sample size necessary to acheive a given power will increase.
 - two group sample size
 
+## Lecture 4 - Multiple Factor Analysis
+
 ### Two Two-Level Factors
 - Example: Introductory CC rate high (2.99%) or low (0%) AND goto rate is high (7.99%) or low (4.99%)
 - Unsophisticated experiments use OFAT - one factor at a time. no interactions
 - factorial experience - include interactions, but require larger samples
 - balanced sample sizes are more efficient, so use when possible
 - Definition: Orthogonal Design - factors are uncorrelated with each other. you can estimate effects independent with each other and independent of the interactions
+- If the values hypothesized to not include an interaction
 
-## Steps in Design of Experiments
+### Efficiency
+- amount of information / cost of experiment
+- efficience designs must be *orthogonal* and *balanced*
+
+### Steps in Design of Experiments
 - Select experimental design
 - Do power analysis based on design
+
+
+## Lecture 5 - Blocking
+- 
+
+## Lecture 6 - Fractional Factorial Experiments
+## Lecture 7 - Optimal Designs
