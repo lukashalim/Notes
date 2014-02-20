@@ -134,7 +134,10 @@ Confounding Rules:
 ![img](screenshots/factex_confounding.PNG "PROC Factex Recoded Example")
 - we definately definately don't want any main effects confounded with other main effects. we also don't want variables confounded with two way interactions... if this occurs, we are trying for too small a design. here, fixed is confounded with the interaction of Goto and Color. If we don't want that, we will need a larger treatment structure (32 treatments)
 ![img](screenshots/factex_recoded.PNG "PROC Factex Recoded Example")
+
+### MktEx Macro
 - Use **%MktEx Macro** for simpler syntax
+- Example: %MktEx(2**10, n=16) will give us a 16 treatement design with 10 two-level factors
 
 ### Experimental Design Efficiency:
 ![img](screenshots/DOE_efficiency.PNG "DOE Efficiency")
