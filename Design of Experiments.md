@@ -121,10 +121,11 @@ Sample Size Allocation
 - fractional design should still be balanced and orthogonal
 
 ### Proc FACTEX
-Syntax: 
+#### Syntax: 
 
 ![img](screenshots/factex.PNG "PROC Factex")
-Example:
+
+#### Example:
 
 ![img](screenshots/factex_example.PNG "PROC Factex Example")
 - size tells us the number of treatments we would like
