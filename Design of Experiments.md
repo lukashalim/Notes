@@ -59,6 +59,8 @@
 - Smaller alpha => lower power
 - smaller standard deviation => higher power
 
+![img](screenshots/power_1.PNG "Power")
+
 ### Prospetive vs. Retrospective Power Analysis
  - Prospective is *good*, while retrospective is *bad*
 
