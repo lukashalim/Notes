@@ -37,18 +37,20 @@
 - Choosing an alpha determines the probability of a type 1 error. For example, a 5% alpha will mean that 1/20 comparisons that are deemed significant will be due to sampling variation.
 - Control of Type II errors is *more complex.*
  - for a two-sample t-test, the power depends on
-  - sample size
-   - higher sample size => higher power
-   - maximum power when sample sizes for the two groups are equal. however, if you have an imbalance you should not eliminate observations in order to gain balance - this would reduce the power.
-  - ratio of group sample sizes
+   - sample size: higher sample size => higher power
+   - ratio of group samples sizes: maximum power when sample sizes for the two groups are equal. however, if you have an imbalance you should not eliminate observations in order to gain balance - this would reduce the power.
   - alpha - the higher the alpha, the higher the power.  very small alphas will have smaller powers.
   - mean difference or effect size - the larger the estimated difference, the larger the power
   - standard deviation or variability - the smaller the variability, the larger the power.
 
+### Estimating Parameters for power size calculation
+- use subject matter experts or historical data
 
 ### Observed Power
 - assuming that the observed effects and variability are equal to the true parameters, the probability of rejecting the null hypothesis is computed
 - advocates of observed power argue that there is evidence for the null hypothesis being true if the statistical significance was not achieved despite the computed power being high at the observed effect size
+
+## Lecture 2 - Power and Sample Size
 
 ### Power and Sample Size
 - Power: 1-Beta. The chance that one detects a difference from the null hypothesis, if a difference as extreme as the alternative exists
