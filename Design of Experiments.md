@@ -139,6 +139,10 @@ Confounding Rules:
 - Use **%MktEx Macro** for simpler syntax
 - Example: %MktEx(2**10, n=16) will give us a 16 treatement design with 10 two-level factors
 
+### MktLab Macro
+- Similar to %MktEx, but allows for labeled factor levels
+- Example: %MktEx(data=work.design, key=work.key)
+
 ### Experimental Design Efficiency:
 ![img](screenshots/DOE_efficiency.PNG "DOE Efficiency")
 
