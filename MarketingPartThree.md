@@ -25,4 +25,4 @@ There are several remedies to reduce multi-collinearity between factors:
  - Prohibited pairs (restrictions in designs): It is complex, creates a poor design and will affect part worth estimates. You still use restrictions but make sure that you take into account the correlation of factors during its interpretation. 
  - You generate another fractional factorial design and assess the acceptability of its profiles/treatments (many profiles are possible). 
 
-*Price and Brand **always** interact
+*Price and Brand always interact*
