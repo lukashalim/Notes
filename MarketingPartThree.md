@@ -10,3 +10,19 @@ Considering features / attributes to be considered jointly
  - To predict choices and market shares 
  - To help perform benefit segmentation 
 
+- Rules for choosing attribute levels
+ - independent of each other
+ - don't have too many
+ - avoid multi-collinearity
+- Levels
+ - Should be mutually exclusive
+ - Should not be vague or ambiguous
+ - Do not include too many levels for any one attribute (3-5 per attribute)
+ - Balance the levels across attributes
+
+There are several remedies to reduce multi-collinearity between factors: 
+ - Create super attributes (combine the correlated attributes into one and create levels with realistic amounts of both attributes) (e.g., instead of HP and mileage, use “PERFORMANCE”) 
+ - Prohibited pairs (restrictions in designs): It is complex, creates a poor design and will affect part worth estimates. You still use restrictions but make sure that you take into account the correlation of factors during its interpretation. 
+ - You generate another fractional factorial design and assess the acceptability of its profiles/treatments (many profiles are possible). 
+
+*Price and Brand **always** interact
