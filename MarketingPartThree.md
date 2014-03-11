@@ -26,3 +26,6 @@ There are several remedies to reduce multi-collinearity between factors:
  - You generate another fractional factorial design and assess the acceptability of its profiles/treatments (many profiles are possible). 
 
 *Price and Brand always interact*
+
+Validating the model
+- Only run the model with the efficient design dataset. Have a few additional treatment which are used as a hold-out, so that you can validate your model.
