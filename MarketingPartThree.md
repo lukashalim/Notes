@@ -29,3 +29,8 @@ There are several remedies to reduce multi-collinearity between factors:
 
 Validating the model
 - Only run the model with the efficient design dataset. Have a few additional treatment which are used as a hold-out, so that you can validate your model.
+
+Output of Conjoint Analysis
+- gives output for every single subject
+- you can always look at the within-attribute variation
+- output gives you importance by attribute
