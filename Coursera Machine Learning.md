@@ -23,3 +23,18 @@ Fixing High Variance
 Fixing High Bias
 - Increase number of features
 - Decrease regularatization parameter
+
+Far too often, people just try one method of improving model rather than systematically listing and then evaluating options.
+
+Recommended Approach
+- Create and implement learning algorithym and test on cross validation data
+- plot curves to determine if more data or more features might help
+- Error analysis: manually examine misclassified examples in the cross validation set to see if you can find systematic trend in types of examples algorithym is making errors on.
+- Having a single value for model error, such as misclassficiation rate, is very helpful as you try to decide what options lead to the best learning algorithym performance
+
+Choosing Error Metrics
+- Misclassficiation rate can be misleading for skewed classes. If the event we are trying to predict is rare, we can just assume it never happens and get a great misclassification rate.
+- Precision: True Positives / Predicted Positives
+- Recall: True Positives / Actual Positives
+- if you use a higher cuttoff for predicting the rare event, your precision improves but your recall gets worse
+- if you use a lower cuttoff, precision decreases but recall increases
