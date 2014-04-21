@@ -1,2 +1,0 @@
-No local minimum for least squared error on OLS, aside from the global minimum
-"Batch" gradient descent - "batch" means you use entire training set
