@@ -38,3 +38,8 @@ Choosing Error Metrics
 - Recall: True Positives / Actual Positives
 - if you use a higher cuttoff for predicting the rare event, your precision improves but your recall gets worse
 - if you use a lower cuttoff, precision decreases but recall increases
+
+Sometimes More Data Does the Trick!
+Important 2001 paper by Banko and Brill: http://acl.ldc.upenn.edu/P/P01/P01-1005.pdf?origin=publication_detail
+"It's not who has the best algorthym that wins. It's who has the most data."
+Useful test: Given the data, could a human expert make a confident prediction?
