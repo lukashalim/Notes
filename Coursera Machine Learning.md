@@ -1,7 +1,7 @@
 No local minimum for least squared error on OLS, aside from the global minimum
 "Batch" gradient descent - "batch" means you use entire training set
 
-## Improving performance of machine learning algorthym
+### Improving performance of machine learning algorthym
 - Mulitiple possible avenues to try
  - increasing/decreasing smoothing parameter
  - find more training examples
@@ -44,4 +44,4 @@ Important 2001 paper by Banko and Brill: http://acl.ldc.upenn.edu/P/P01/P01-1005
 "It's not who has the best algorthym that wins. It's who has the most data."
 Useful test: Given the data, could a human expert make a confident prediction?
 
-## Support Vector Machines
+### Support Vector Machines
