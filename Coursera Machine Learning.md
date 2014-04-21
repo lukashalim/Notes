@@ -14,3 +14,12 @@ Bias and Variance
  - high training error, training and test error are similar
 - Variance = Overfit
  - low training error, greater test error
+
+Fixing High Variance
+- Reduce number of features
+- Increase regularization parameter
+- Get more training examples
+
+Fixing High Bias
+- Increase number of features
+- Decrease regularatization parameter
