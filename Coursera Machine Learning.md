@@ -47,3 +47,8 @@ Useful test: Given the data, could a human expert make a confident prediction?
 ### Support Vector Machines
 - Rather than creating additional features such as interactions, SVM use a kernal function to create features.
 - Gaussian kernel is most common non-linear kernel. Measures distance.
+- SVM with linear kernel is very similar to logistic regression.
+- with large number of observations, Guassian kernel can get too slow
+- Similar results to neural network, but SVM can be faster to train, and with frequently used kernels will certainly converge.
+
+One-vs-All: Used for multilevel target for both logistic and SVM. Train a classifier, theta, for each factor level. On a new input, pick level with the maximum predicted probability
