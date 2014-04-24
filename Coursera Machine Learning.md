@@ -45,3 +45,5 @@ Important 2001 paper by Banko and Brill: http://acl.ldc.upenn.edu/P/P01/P01-1005
 Useful test: Given the data, could a human expert make a confident prediction?
 
 ### Support Vector Machines
+- Rather than creating additional features such as interactions, SVM use a kernal function to create features.
+- Gaussian kernel is most common non-linear kernel. Measures distance.
