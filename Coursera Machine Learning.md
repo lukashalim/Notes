@@ -56,3 +56,10 @@ One-vs-All: Used for multilevel target for both logistic and SVM. Train a classi
 ### Anamoly Detection
 - Unsupervised approach to model probability of a given set of measurements.
 - You can a simpler approach, which assumes no correlation between features, or an approach using a correlation matrix which allows for correlations. The latter requires more data and is computationally more expensive.
+
+### Large Scale Machine Learning
+- Beause batch Gradient descent doesn't scale well, we consider some variants with better performance for large data sets
+ - stochastic gradient descent 
+ - mini-batch gradient descent
+- Online Learning Algorithms
+- use each new example to update learning algor
