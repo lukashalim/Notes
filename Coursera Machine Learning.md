@@ -52,3 +52,7 @@ Useful test: Given the data, could a human expert make a confident prediction?
 - Similar results to neural network, but SVM can be faster to train, and with frequently used kernels will certainly converge.
 
 One-vs-All: Used for multilevel target for both logistic and SVM. Train a classifier, theta, for each factor level. On a new input, pick level with the maximum predicted probability
+
+### Anamoly Detection
+- Unsupervised approach to model probability of a given set of measurements.
+- You can a simpler approach, which assumes no correlation between features, or an approach using a correlation matrix which allows for correlations. The latter requires more data and is computationally more expensive.
