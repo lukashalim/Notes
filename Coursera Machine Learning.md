@@ -1,7 +1,7 @@
 No local minimum for least squared error on OLS, aside from the global minimum
 "Batch" gradient descent - "batch" means you use entire training set
 
-### Improving performance of machine learning algorthym
+### Improving performance of machine learning algorithm
 - Mulitiple possible avenues to try
  - increasing/decreasing smoothing parameter
  - find more training examples
