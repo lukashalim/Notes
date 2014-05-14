@@ -57,6 +57,12 @@ One-vs-All: Used for multilevel target for both logistic and SVM. Train a classi
 - Unsupervised approach to model probability of a given set of measurements.
 - You can a simpler approach, which assumes no correlation between features, or an approach using a correlation matrix which allows for correlations. The latter requires more data and is computationally more expensive.
 
+### Recommender Systems
+- Big interest in Silicon Valley, less academic interest
+- Collaborative Filtering
+ - for cases when obeservations do not have features. Ex - movies without information about how romantic of funny they are
+ - minimize features and coefficients simultaneously
+
 ### Large Scale Machine Learning
 - Beause batch Gradient descent doesn't scale well, we consider some variants with better performance for large data sets
  - Batch Gradient Descent: use all examples in each iteration
