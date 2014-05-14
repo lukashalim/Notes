@@ -59,7 +59,24 @@ One-vs-All: Used for multilevel target for both logistic and SVM. Train a classi
 
 ### Large Scale Machine Learning
 - Beause batch Gradient descent doesn't scale well, we consider some variants with better performance for large data sets
- - stochastic gradient descent 
- - mini-batch gradient descent
+ - Batch Gradient Descent: use all examples in each iteration
+ - stochastic gradient descent: use 1 examples in each iteration
+ - mini-batch gradiet descent: use b examples in each iteration
 - Online Learning Algorithms
-- use each new example to update learning algor
+- use each new example to update learning algorithm
+- example: decide what search results to show based on what users are clicking on
+- useful if things you are predicting may be slowly changing over time
+- Map Reduce and Data Parallelism
+ - Batch Gradient Descent
+  - performs algorithm on 1/n of the data on each of n machines
+  - combined sum is equivalent to standard batch gradient descent
+ - Many learning algorithms can be expressed as computings sums of functions over the training set
+
+### Photo OCR case study
+- OCR = Optical Character Recognition
+- Difficult to recognize characters in photos
+- Steps:
+ - text detection: identifying regions with text
+ - character segmentation: identifying separations between characters
+ - character classification: identifying characters
+- 
