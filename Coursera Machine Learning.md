@@ -1,3 +1,18 @@
+### Backpropagation for Neural Networks
+- For each training example, use the gradient (the vector of partial derivatives) of the cost function to determine how to change the weights so as to minimize the cost. 
+- When the partial derivative is large, that indicates that changing the weight of the neuron can substantially improve performance - in other words, the neuron has a lot of error. On the other hand, if the partial derivative is small, changing the weight will not improve performance, indicating the neuron does not have much error.
+- Steps in Algorithm:
+ - Pick network architecture (number of hidden layers, number of hidden units)
+ - Train Neural Network
+  - Randomly Initialize Weights
+  - Implement forward propogation to compute output vector for training examples
+  - Implement code to compute the cost function
+  - Implement backprop to compute the partial derivatives of the cost function
+  - Use gradient checking to compare the partial derivatives computed using backprop to the numerical estimate of the cost function
+  - Use gradient descent or advanced optimization method with backprop to try to minimize the cost as a function of the parameters
+- Gradient Checking is a less computationally efficient way of computing deriviatives than backprop, but it is used to confirm that backprop has been properly implemented.
+
+
 No local minimum for least squared error on OLS, aside from the global minimum
 "Batch" gradient descent - "batch" means you use entire training set
 
